@@ -7,13 +7,18 @@ import MainSection from './components/MainSection/MainSection'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
+    const warinng = () => {
+        alert("Hello in my ass")
+    }
     return (
         <>
             <NavbarCustom />
 
-            <WelcomeSection />
+            <WelcomeSection 
+                warinng={warinng}
+            />
 
-            <MainSection />
+            <MainSection  />
 
             <Footer />
         </>
