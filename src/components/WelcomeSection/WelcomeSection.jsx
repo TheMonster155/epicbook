@@ -14,7 +14,7 @@ const WelcomeSection = ({warinng}) => {
         <div className="bg-light text-center py-5">
             <div className="container pt-5 pb-5">
                 <div className="row pt-5 pb-5">
-                    <div className="col-lg-12 col-xl-12 ms-auto pb-5 pt-5">
+                    <div className="  col col-lg-12 col-xl-12  ms-auto pb-5 pt-5">
                         <span>{randomBook.category}</span>
                         <h1 className="display-3 fw-bold mb-3">
                             Libro Del Giorno
